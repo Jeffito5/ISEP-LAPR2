@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="422px" preserveAspectRatio="none" style="width:286px;height:422px;" version="1.1" viewBox="0 0 286 422" width="286px" zoomAndPan="magnify"><defs><filter height="300%" id="fgivn8qysbvm9" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="258" x="7.75" y="17.4023">US 9 - Domain Model Excerpt</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="9" fill="#FEFECE" filter="url(#fgivn8qysbvm9)" height="52.9551" id="Company" style="stroke:#A80036;stroke-width:1.5;" width="86" x="60.5" y="28.1992"/><ellipse cx="75.5" cy="44.1992" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M77.9731,50.3423 Q77.3921,50.6411 76.7529,50.7905 Q76.1138,50.9399 75.4082,50.9399 Q72.9014,50.9399 71.5815,49.2881 Q70.2617,47.6362 70.2617,44.5151 Q70.2617,41.3857 71.5815,39.7339 Q72.9014,38.082 75.4082,38.082 Q76.1138,38.082 76.7612,38.2314 Q77.4087,38.3809 77.9731,38.6797 L77.9731,41.4023 Q77.3423,40.8213 76.7488,40.5515 Q76.1553,40.2817 75.5244,40.2817 Q74.1797,40.2817 73.4949,41.3484 Q72.8101,42.415 72.8101,44.5151 Q72.8101,46.6069 73.4949,47.6736 Q74.1797,48.7402 75.5244,48.7402 Q76.1553,48.7402 76.7488,48.4705 Q77.3423,48.2007 77.9731,47.6196 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="89.5" y="48.7344">Company</text><line style="stroke:#A80036;stroke-width:1.5;" x1="61.5" x2="145.5" y1="60.1992" y2="60.1992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="66.5" y="74.834">-designation</text><!--MD5=[36afb6bbd95a8ac778c4537c55a683d5]
+class ParameterCategory--><rect codeLine="14" fill="#FEFECE" filter="url(#fgivn8qysbvm9)" height="65.9102" id="ParameterCategory" style="stroke:#A80036;stroke-width:1.5;" width="143" x="7" y="342.1992"/><ellipse cx="22" cy="358.1992" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24.4731,364.3423 Q23.8921,364.6411 23.2529,364.7905 Q22.6138,364.9399 21.9082,364.9399 Q19.4014,364.9399 18.0815,363.2881 Q16.7617,361.6362 16.7617,358.5151 Q16.7617,355.3857 18.0815,353.7339 Q19.4014,352.082 21.9082,352.082 Q22.6138,352.082 23.2612,352.2314 Q23.9087,352.3809 24.4731,352.6797 L24.4731,355.4023 Q23.8423,354.8213 23.2488,354.5515 Q22.6553,354.2817 22.0244,354.2817 Q20.6797,354.2817 19.9949,355.3484 Q19.3101,356.415 19.3101,358.5151 Q19.3101,360.6069 19.9949,361.6736 Q20.6797,362.7402 22.0244,362.7402 Q22.6553,362.7402 23.2488,362.4705 Q23.8423,362.2007 24.4731,361.6196 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="36" y="362.7344">ParameterCategory</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="149" y1="374.1992" y2="374.1992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="32" x="13" y="388.834">-code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="13" y="401.7891">-name</text><!--MD5=[aeb3272166074d8737a70b61b1e71682]
+class TestType--><rect codeLine="20" fill="#FEFECE" filter="url(#fgivn8qysbvm9)" height="91.8203" id="TestType" style="stroke:#A80036;stroke-width:1.5;" width="130" x="142.5" y="158.1992"/><ellipse cx="177.3" cy="174.1992" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M179.7731,180.3423 Q179.1921,180.6411 178.5529,180.7905 Q177.9138,180.9399 177.2082,180.9399 Q174.7014,180.9399 173.3815,179.2881 Q172.0617,177.6362 172.0617,174.5151 Q172.0617,171.3857 173.3815,169.7339 Q174.7014,168.082 177.2082,168.082 Q177.9138,168.082 178.5612,168.2314 Q179.2087,168.3809 179.7731,168.6797 L179.7731,171.4023 Q179.1423,170.8213 178.5488,170.5515 Q177.9553,170.2817 177.3244,170.2817 Q175.9797,170.2817 175.2949,171.3484 Q174.6101,172.415 174.6101,174.5151 Q174.6101,176.6069 175.2949,177.6736 Q175.9797,178.7402 177.3244,178.7402 Q177.9553,178.7402 178.5488,178.4705 Q179.1423,178.2007 179.7731,177.6196 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="195.7" y="178.7344">TestType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="143.5" x2="271.5" y1="190.1992" y2="190.1992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="32" x="148.5" y="204.834">-code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="148.5" y="217.7891">-description</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="98" x="148.5" y="230.7441">-collectionMethod</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="118" x="148.5" y="243.6992">-externalModuleClass</text><!--MD5=[742a261f27a3dcd734c626287d811acd]
+link Company to TestType--><path codeLine="28" d="M121.62,81.3892 C136.51,102.5192 157.98,132.9692 175.73,158.1392 " fill="none" id="Company-TestType" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="159.3811,123.941,156.5712,114.855,151.7672,118.2419,159.3811,123.941" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="58" x="165.5" y="124.7676">conducts</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="116.8853" y="101.9051">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="164.4058" y="147.5437">*</text><!--MD5=[93b4f25fb503a8e0e9a46b1d30ff3f44]
+link Company to ParameterCategory--><path codeLine="29" d="M91.66,81.5892 C83.04,101.9392 72.1,131.2392 67.5,158.1992 C56.49,222.7892 65.6,299.6892 72.52,342.0992 " fill="none" id="Company-ParameterCategory" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="72.1336,209.3411,75.7274,200.5356,69.8654,200.1049,72.1336,209.3411" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="81.5" y="209.2676">adopts</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="80.195" y="101.7193">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="64.6679" y="331.3351">*</text><!--MD5=[8aaf0efd5e2f3824be7ea3e488dcc283]
+link TestType to ParameterCategory--><path codeLine="32" d="M172.93,250.4892 C150.84,279.4292 122.73,316.2592 102.94,342.1792 " fill="none" id="TestType-ParameterCategory" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="79" x="169.5" y="293.7676">can measure</text><polygon fill="#000000" points="149.4662,308.1395,157.2905,302.7329,152.6183,299.1664,149.4662,308.1395" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="110" x="160.5" y="309.0781">parameters under</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="161.6467" y="270.6563">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="83.712" y="331.4316">1..*</text><!--MD5=[1428fde9a06fa23d05cc08b0db4858bd]
+@startuml
+
+skinparam classAttributeIconSize 0
+hide methods
+
+title
+US 9 - Domain Model Excerpt
+end title
+
+class Company {
+-designation
+}
+
+
+class ParameterCategory {
+-code
+-name
+}
+
+
+class TestType {
+-code
+-description
+-collectionMethod
+-externalModuleClass
+}
+
+
+Company "1" - - "*" TestType: conducts >
+Company "1" - - "*" ParameterCategory : adopts >
+
+
+TestType "*" - - "1..*" ParameterCategory : can measure\nparameters under >
+
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 WEST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: PT
+--></g></svg>

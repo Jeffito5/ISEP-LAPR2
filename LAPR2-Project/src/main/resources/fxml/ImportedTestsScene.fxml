@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="paneParent" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.ImportClinicalTestsSceneGUI">
+   <children>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#e1e1e1" height="401.0" stroke="WHITE" strokeType="INSIDE" width="117.0" />
+      <ImageView fitHeight="70.0" fitWidth="90.0" layoutX="20.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../JavaFX-Images/Logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="13.0" layoutY="55.0" prefHeight="29.0" prefWidth="84.0" text="Laboratory's" />
+      <Label layoutX="13.0" layoutY="73.0" prefHeight="25.0" prefWidth="99.0" text="Coordinator" />
+      <Label layoutX="32.0" layoutY="87.0" prefHeight="27.0" prefWidth="46.0" text="Menu" />
+      <Button fx:id="btnBack" layoutX="181.0" layoutY="356.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+      <TextArea fx:id="txtAreaInfo" layoutX="127.0" layoutY="78.0" prefHeight="234.0" prefWidth="462.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="258.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../JavaFX-Images/ManyLabs.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnConfirm" layoutX="458.0" layoutY="356.0" mnemonicParsing="false" onAction="#confirmSaveData" text="Confirm" />
+      <Label fx:id="lblInfo" layoutX="405.0" layoutY="312.0" prefHeight="31.0" prefWidth="184.0" />
+   </children>
+</AnchorPane>

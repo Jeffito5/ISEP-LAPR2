@@ -1,0 +1,27 @@
+@font-face {
+    src: url("MontserratRegular.ttf");
+}
+
+.button {
+    -fx-font-family: 'Montserrat';
+}
+
+#pane {
+    -fx-background-color: #FFFFFF;
+}
+
+#paneParent {
+    -fx-background-color: #FFFFFF;
+}
+
+#rectangle {
+    -fx-background-color: #1112;
+}
+
+.label {
+    -fx-font-family: 'Montserrat';
+}
+
+.menu-item { -fx-padding: 1 5 1 5; }
+
+.menu { -fx-padding: 1 5 1 5; }

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="442px" preserveAspectRatio="none" style="width:650px;height:442px;" version="1.1" viewBox="0 0 650 442" width="650px" zoomAndPan="magnify"><defs><filter height="300%" id="f1x433p6jj3ss6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1x433p6jj3ss6)" height="297.4844" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="96" y="66.9766"/><rect fill="#FFFFFF" filter="url(#f1x433p6jj3ss6)" height="268.1738" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="101" y="96.2871"/><rect fill="#FFFFFF" filter="url(#f1x433p6jj3ss6)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="412" y="334.4609"/><rect fill="#FFFFFF" filter="url(#f1x433p6jj3ss6)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="576" y="215.8398"/><rect fill="#FFFFFF" filter="url(#f1x433p6jj3ss6)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="576" y="275.1504"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="101" x2="101" y1="56.9766" y2="382.4609"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="417" x2="417" y1="56.9766" y2="382.4609"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="581" x2="581" y1="56.9766" y2="382.4609"/><rect fill="#FEFECE" filter="url(#f1x433p6jj3ss6)" height="46.9766" style="stroke: #A80036; stroke-width: 1.5;" width="116" x="41" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="75" y="25.5352">eStore:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="48" y="42.0234">EmployeeStore</text><rect fill="#FEFECE" filter="url(#f1x433p6jj3ss6)" height="46.9766" style="stroke: #A80036; stroke-width: 1.5;" width="116" x="41" y="381.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="75" y="401.9961">eStore:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="48" y="418.4844">EmployeeStore</text><rect fill="#FEFECE" filter="url(#f1x433p6jj3ss6)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="186" x="322" y="21.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="329" y="42.0234">: EmailNotificationSender</text><rect fill="#FEFECE" filter="url(#f1x433p6jj3ss6)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="186" x="322" y="381.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="329" y="401.9961">: EmailNotificationSender</text><rect fill="#FEFECE" filter="url(#f1x433p6jj3ss6)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="114" x="522" y="21.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="529" y="42.0234">emp:Employee</text><rect fill="#FEFECE" filter="url(#f1x433p6jj3ss6)" height="30.4883" style="stroke: #A80036; stroke-width: 1.5;" width="114" x="522" y="381.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="100" x="529" y="401.9961">emp:Employee</text><rect fill="#FFFFFF" filter="url(#f1x433p6jj3ss6)" height="297.4844" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="96" y="66.9766"/><rect fill="#FFFFFF" filter="url(#f1x433p6jj3ss6)" height="268.1738" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="101" y="96.2871"/><rect fill="#FFFFFF" filter="url(#f1x433p6jj3ss6)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="412" y="334.4609"/><rect fill="#FFFFFF" filter="url(#f1x433p6jj3ss6)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="576" y="215.8398"/><rect fill="#FFFFFF" filter="url(#f1x433p6jj3ss6)" height="30" style="stroke: #A80036; stroke-width: 1.0;" width="10" x="576" y="275.1504"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="106" x2="153" y1="83.2871" y2="83.2871"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="153" x2="153" y1="83.2871" y2="96.2871"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="112" x2="153" y1="96.2871" y2="96.2871"/><polygon fill="#A80036" points="122,92.2871,112,96.2871,122,100.2871,118,96.2871" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="133" x="118" y="78.5449">sendEmail(emp, pwd)</text><path d="M5,114.2871 L5,185.2871 L509,185.2871 L509,124.2871 L499,114.2871 L5,114.2871 " fill="#FBFB77" filter="url(#f1x433p6jj3ss6)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M499,114.2871 L499,124.2871 L509,124.2871 L499,114.2871 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="483" x="11" y="131.8555">During Sprint B, the need to notify by email the generate passwords come up</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="167" x="11" y="147.166">either on US 3 and on US7.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="380" x="11" y="162.4766">As such, to avoid code duplication, by PureFabrication, such</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="472" x="11" y="177.7871">responsibility must be assigned to a specific class specialized in that task.</text><polygon fill="#A80036" points="564,211.8398,574,215.8398,564,219.8398,568,215.8398" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="111" x2="570" y1="215.8398" y2="215.8398"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="116" x="118" y="211.0977">name = getName()</text><polygon fill="#A80036" points="564,271.1504,574,275.1504,564,279.1504,568,275.1504" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="111" x2="570" y1="275.1504" y2="275.1504"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="114" x="118" y="270.4082">email = getEmail()</text><polygon fill="#A80036" points="400,330.4609,410,334.4609,400,338.4609,404,334.4609" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="111" x2="406" y1="334.4609" y2="334.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="282" x="118" y="329.7188">sendPasswordNotification(name, email, pwd)</text><!--MD5=[3a644b10f15b5148a763d77cb9c7cf47]
+@startuml
+participant "eStore:\nEmployeeStore" as ESTORE
+participant ": EmailNotificationSender" as SRV
+participant "emp:Employee" as EMP
+
+activate ESTORE
+ESTORE ->ESTORE: sendEmail(emp, pwd)
+note over ESTORE, SRV
+During Sprint B, the need to notify by email the generate passwords come up
+either on US 3 and on US7.
+As such, to avoid code duplication, by PureFabrication, such
+responsibility must be assigned to a specific class specialized in that task.
+end note
+activate ESTORE
+
+ESTORE -> EMP: name = getName()
+activate EMP
+deactivate EMP
+
+ESTORE -> EMP: email = getEmail()
+activate EMP
+deactivate EMP
+
+ESTORE -> SRV: sendPasswordNotification(name, email, pwd)
+activate SRV
+'SRV - -> ESTORE: ok
+deactivate SRV
+
+deactivate ESTORE
+deactivate ESTORE
+@enduml
+
+@startuml
+participant "eStore:\nEmployeeStore" as ESTORE
+participant ": EmailNotificationSender" as SRV
+participant "emp:Employee" as EMP
+
+activate ESTORE
+ESTORE ->ESTORE: sendEmail(emp, pwd)
+note over ESTORE, SRV
+During Sprint B, the need to notify by email the generate passwords come up
+either on US 3 and on US7.
+As such, to avoid code duplication, by PureFabrication, such
+responsibility must be assigned to a specific class specialized in that task.
+end note
+activate ESTORE
+
+ESTORE -> EMP: name = getName()
+activate EMP
+deactivate EMP
+
+ESTORE -> EMP: email = getEmail()
+activate EMP
+deactivate EMP
+
+ESTORE -> SRV: sendPasswordNotification(name, email, pwd)
+activate SRV
+deactivate SRV
+
+deactivate ESTORE
+deactivate ESTORE
+@enduml
+
+PlantUML version 1.2020.20(Sat Nov 21 10:02:45 WET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: PT
+--></g></svg>

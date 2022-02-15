@@ -1,0 +1,27 @@
+Domain Model
+
+Laboratory (name, adress, phoneNumber, tinNumber)
+ClinicalAnalysisLaboratory (laboratoryID)
+ChemicalLaboratory
+Staff (employeeID, organizationRole, name, adress, phoneNumber, email, SOCCode)
+Company
+Sample(code, description, nhsId, dateOfCollection)
+Test (code, nhsCode, type, description)
+TypeOfTest
+Parameter (code, nhsCode, description)
+ChemicalAnalysis 
+Client (ccn, nhsNumber, birthDate, sex, TIN, phoneNumber, email, name)
+Doctor
+Receptionist
+LabOrder (typeOfTest, parameters)
+MedicalLabTechnician
+Administrator
+Category (description)
+ClinicalChemistryTechnologist
+AnalysisResult (dateOfAnalysis, timeOfAnalysis, dateOfValidation, timeOfValidation)
+SpecialistDoctor (doctorIndexNumber)
+Diagnosis (dateOfDiagnosis, timeOfDiagnosis)
+Report
+LaboratoryCoordinator
+CovidReport
+NHS

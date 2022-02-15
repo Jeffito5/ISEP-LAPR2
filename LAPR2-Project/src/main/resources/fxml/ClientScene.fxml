@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.ClientSceneGUI">
+   <children>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#e1e1e1" height="401.0" stroke="WHITE" strokeType="INSIDE" width="117.0" />
+      <ImageView fitHeight="70.0" fitWidth="90.0" layoutX="21.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../JavaFX-Images/Logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnUpdatePersonalData" layoutX="255.0" layoutY="124.0" mnemonicParsing="false" onAction="#updatePersonalData" text="Update personal data" />
+      <Button fx:id="btnViewResults" layoutX="246.0" layoutY="285.0" mnemonicParsing="false" onAction="#viewResults" text="View the results of Tests" />
+      <Label layoutX="10.0" layoutY="49.0" text="Client's Menu" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="236.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../JavaFX-Images/ManyLabs.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnShowClientData" layoutX="236.0" layoutY="201.0" mnemonicParsing="false" onAction="#showClientData" text="Show Client's updated data" />
+      <Button fx:id="btnBack" layoutX="479.0" layoutY="356.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="apidocs">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/barbecue-1.5-beta1.zip!/barbecue-1.5-beta1/docs/apidocs" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/barbecue-1.5-beta1.zip!/barbecue-1.5-beta1/examples" />
+    </SOURCES>
+  </library>
+</component>

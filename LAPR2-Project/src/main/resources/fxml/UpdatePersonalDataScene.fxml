@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="paneParent" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.UpdatePersonalDataGUI">
+   <children>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#e1e1e1" height="401.0" stroke="WHITE" strokeType="INSIDE" width="117.0" />
+      <ImageView fitHeight="70.0" fitWidth="90.0" layoutX="21.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../JavaFX-Images/Logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="10.0" layoutY="49.0" text="Client's Menu" />
+      <Button fx:id="btnBack" layoutX="232.0" layoutY="366.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+      <GridPane layoutX="162.0" layoutY="5.0" prefHeight="275.0" prefWidth="410.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="226.5" minWidth="10.0" prefWidth="163.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="245.0" minWidth="10.0" prefWidth="245.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="Name">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="18.0" prefHeight="21.0" prefWidth="157.0" text="Birth Date (dd-MM-yyyy)" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="53.0" text="CCN (16 digits)" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="88.0" text="Sex" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="88.0" text="NHS Number (10 digits)" GridPane.rowIndex="4">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="18.0" text="TIN (10 digits)" GridPane.rowIndex="5">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="18.0" text="Phone Number (11 digits)" GridPane.rowIndex="6">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="18.0" text="Email" GridPane.rowIndex="7">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtBirthDate" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="txtName" layoutX="173.0" layoutY="13.0" GridPane.columnIndex="1" />
+            <TextField fx:id="txtCCN" layoutX="173.0" layoutY="48.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="txtSex" layoutX="173.0" layoutY="48.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="txtNHS" layoutX="173.0" layoutY="13.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="txtTIN" layoutX="173.0" layoutY="13.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <TextField fx:id="txtPhoneNumber" layoutX="173.0" layoutY="13.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+            <TextField fx:id="txtEmail" layoutX="173.0" layoutY="13.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+         </children>
+      </GridPane>
+      <Button fx:id="btnCancel" layoutX="302.0" layoutY="365.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <Button fx:id="btnUpdate" layoutX="387.0" layoutY="365.0" mnemonicParsing="false" onAction="#updateData" text="Update" />
+      <TextField fx:id="txtInfo" layoutX="138.0" layoutY="302.0" prefHeight="53.0" prefWidth="428.0" />
+   </children>
+</AnchorPane>

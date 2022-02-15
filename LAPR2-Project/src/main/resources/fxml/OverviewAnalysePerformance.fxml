@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="693.0" prefWidth="1176.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.OverviewAnalysePerformanceUI">
+   <children>
+      <Label layoutX="25.0" layoutY="32.0" prefHeight="27.0" prefWidth="270.0" text="Beginning Date [dd/MM/yyyy]:" />
+      <Label layoutX="25.0" layoutY="103.0" prefHeight="27.0" prefWidth="270.0" text="End Date [dd/MM/yyyy]:" textAlignment="CENTER" />
+      <TextField id="beginningDateTxt" fx:id="beginningDateTxt" layoutX="295.0" layoutY="26.0" />
+      <TextField id="endDateTxt" fx:id="endDateTxt" layoutX="295.0" layoutY="97.0" />
+      <Label layoutX="25.0" layoutY="169.0" prefHeight="27.0" prefWidth="270.0" text="Choose the algorithm:" textAlignment="CENTER" />
+      <TextField id="algorithmTxt" fx:id="algorithmTxt" layoutX="295.0" layoutY="163.0" prefHeight="39.0" prefWidth="76.0" />
+      <Label layoutX="384.0" layoutY="156.0" prefHeight="27.0" prefWidth="270.0" text="0: Benchmark " textAlignment="CENTER" />
+      <Label layoutX="384.0" layoutY="183.0" prefHeight="27.0" prefWidth="270.0" text="1: Brute Force" textAlignment="CENTER" />
+      <Button id="ViewDataBtn" fx:id="viewDataBtn" layoutX="25.0" layoutY="220.0" mnemonicParsing="false" onAction="#sendData" text="View Data" />
+      <Label layoutX="25.0" layoutY="327.0" prefHeight="27.0" prefWidth="163.0" text="Number of Clients:" />
+      <Label layoutX="25.0" layoutY="363.0" prefHeight="27.0" prefWidth="270.0" text="Number of Tests Waiting Results:" />
+      <Label layoutX="25.0" layoutY="400.0" prefHeight="27.0" prefWidth="295.0" text="Number of Tests Waiting Diagnosis:" />
+      <Label layoutX="25.0" layoutY="438.0" prefHeight="27.0" prefWidth="270.0" text="Number of Tests Processed:" />
+      <Label layoutX="798.0" layoutY="314.0" prefHeight="27.0" prefWidth="200.0" text="Less efficiency interval:" />
+      <LineChart id="maxSumArrayGraph" fx:id="Graph" layoutX="574.0" layoutY="377.0" prefHeight="272.0" prefWidth="561.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Label id="numberOfTestsWaitingResultsLbl" fx:id="numberOfTestsWaitingResultsLbl" layoutX="320.0" layoutY="363.0" prefHeight="27.0" prefWidth="87.0" />
+      <Label id="numberOfTestsWaitingDiagnosisLbl" fx:id="numberOfTestsWaitingDiagnosisLbl" layoutX="320.0" layoutY="400.0" prefHeight="27.0" prefWidth="76.0" />
+      <Label id="numberOfClientsLbl" fx:id="numberOfClientsLbl" layoutX="320.0" layoutY="320.0" prefHeight="27.0" prefWidth="76.0" />
+      <Label id="numberOfTestsProcessedLbl" fx:id="numberOfTestsProcessedLbl" layoutX="320.0" layoutY="438.0" prefHeight="27.0" prefWidth="76.0" />
+      <Button fx:id="btnBack" layoutX="68.0" layoutY="610.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+   </children>
+</AnchorPane>

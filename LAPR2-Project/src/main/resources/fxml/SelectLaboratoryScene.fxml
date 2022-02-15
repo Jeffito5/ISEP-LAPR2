@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="paneParent" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.SelectLaboratoryScene">
+   <children>
+      <MenuBar fx:id="menuBar1" layoutX="40.0" layoutY="40.0" prefHeight="0.0" prefWidth="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#menuCloseApp" text="Close" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="logout1" mnemonicParsing="false" onAction="#doLogout" text="Logout" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#menuAbout" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+         <center>
+            <ComboBox fx:id="calCombo" prefHeight="27.0" prefWidth="287.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets top="100.0" />
+               </BorderPane.margin>
+            </ComboBox>
+         </center>
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="goBack" mnemonicParsing="false" onAction="#getBack" prefHeight="27.0" prefWidth="128.0" text="BACK">
+                     <HBox.margin>
+                        <Insets left="60.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Region prefHeight="200.0" prefWidth="180.0" HBox.hgrow="ALWAYS" />
+                  <Button fx:id="confirmBtn" layoutX="10.0" layoutY="40.0" mnemonicParsing="false" onAction="#confirm" prefHeight="27.0" prefWidth="128.0" text="CONFIRM">
+                     <HBox.margin>
+                        <Insets right="60.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets top="30.0" />
+               </padding>
+            </HBox>
+         </bottom>
+      </BorderPane>
+      <HBox prefHeight="200.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="80.0">
+         <children>
+            <Region prefHeight="200.0" prefWidth="120.0" HBox.hgrow="ALWAYS" />
+            <Label text="SELECT CLINICAL ANALYSIS LABORATORY">
+               <HBox.margin>
+                  <Insets top="40.0" />
+               </HBox.margin>
+            </Label>
+            <Region prefHeight="200.0" prefWidth="120.0" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

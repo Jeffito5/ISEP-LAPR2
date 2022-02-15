@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="460px" preserveAspectRatio="none" style="width:661px;height:460px;" version="1.1" viewBox="0 0 661 460" width="661px" zoomAndPan="magnify"><defs><filter height="300%" id="f1c02zv7coc8mm" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="167" x="247" y="30.6855">Creating Client Store</text><rect fill="#FFFFFF" filter="url(#f1c02zv7coc8mm)" height="150.7891" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21.5" y="105.8594"/><rect fill="#FFFFFF" filter="url(#f1c02zv7coc8mm)" height="118.4375" style="stroke:#A80036;stroke-width:1.0;" width="10" x="207.5" y="138.2109"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="26" x2="26" y1="95.8594" y2="397.9219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="212.5" x2="212.5" y1="147.9688" y2="397.9219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="332.5" x2="332.5" y1="212.1875" y2="397.9219"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="434.5" x2="434.5" y1="276.4063" y2="397.9219"/><rect fill="#FEFECE" filter="url(#f1c02zv7coc8mm)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="39" x="5" y="41.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="22.5" y="63.1738">:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="12" y="80.7832">App</text><rect fill="#FEFECE" filter="url(#f1c02zv7coc8mm)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="39" x="5" y="396.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="22.5" y="418.4551">:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="12" y="436.0645">App</text><rect fill="#FEFECE" filter="url(#f1c02zv7coc8mm)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="74" x="173.5" y="396.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="208.5" y="418.4551">:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="180.5" y="436.0645">Company</text><rect fill="#FEFECE" filter="url(#f1c02zv7coc8mm)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="91" x="285.5" y="396.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="315" y="418.4551">auth:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="292.5" y="436.0645">AuthFacade</text><rect fill="#FEFECE" filter="url(#f1c02zv7coc8mm)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="84" x="390.5" y="396.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="430.5" y="418.4551">:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="397.5" y="436.0645">ClientStore</text><rect fill="#FFFFFF" filter="url(#f1c02zv7coc8mm)" height="150.7891" style="stroke:#A80036;stroke-width:1.0;" width="10" x="21.5" y="105.8594"/><rect fill="#FFFFFF" filter="url(#f1c02zv7coc8mm)" height="118.4375" style="stroke:#A80036;stroke-width:1.0;" width="10" x="207.5" y="138.2109"/><polygon fill="#A80036" points="161.5,124.2109,171.5,128.2109,161.5,132.2109,165.5,128.2109" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="31.5" x2="167.5" y1="128.2109" y2="128.2109"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="38.5" y="123.3545">create(</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="74" x="78.5" y="123.3545">designation</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="152.5" y="123.3545">)</text><rect fill="#FEFECE" filter="url(#f1c02zv7coc8mm)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="74" x="173.5" y="105.8594"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="208.5" y="127.3926">:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="180.5" y="145.002">Company</text><polygon fill="#A80036" points="273.5,188.4297,283.5,192.4297,273.5,196.4297,277.5,192.4297" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="217.5" x2="279.5" y1="192.4297" y2="192.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="224.5" y="187.5732">create()</text><rect fill="#FEFECE" filter="url(#f1c02zv7coc8mm)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="91" x="285.5" y="170.0781"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="315" y="191.6113">auth:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="292.5" y="209.2207">AuthFacade</text><polygon fill="#A80036" points="378.5,252.6484,388.5,256.6484,378.5,260.6484,382.5,256.6484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="212.5" x2="384.5" y1="256.6484" y2="256.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="219.5" y="251.792">create(</text><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="259.5" y="251.792">auth</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="287.5" y="251.792">)</text><rect fill="#FEFECE" filter="url(#f1c02zv7coc8mm)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="84" x="390.5" y="234.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="430.5" y="255.8301">:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="70" x="397.5" y="273.4395">ClientStore</text><path d="M217,303.5156 L217,378.5156 L652,378.5156 L652,313.5156 L642,303.5156 L217,303.5156 " fill="#FBFB77" filter="url(#f1c02zv7coc8mm)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M642,303.5156 L642,313.5156 L652,313.5156 L642,303.5156 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="368" x="223" y="322.0107">The object Company is delegating its responsibilities on Stores.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="405" x="223" y="338.3623">As so, it must ensure that the dependencies of each store are fulfilled.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="0" x="227" y="354.7139"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="414" x="223" y="371.0654">Noteworthy, that others dependencies might be found out further.</text><!--MD5=[1c49c4e436dd2a723e9afedc396841c9]
+@startuml
+title Creating Client Store
+'participant ":APP" as APP
+'NMF: classe é App e não APP
+participant ":\nApp" as APP
+participant ":\nCompany" as COMP
+participant "auth:\nAuthFacade" as AUTH
+participant ":\nClientStore" as STORE
+
+activate APP
+'APP- -> COMP**: create(...)
+'NMF: Prefiro ser claro
+APP- -> COMP**: create(**designation**)
+
+activate COMP
+
+COMP - ->AUTH**: create()
+
+COMP - ->STORE**: create(**auth**)
+
+note right COMP
+The object Company is delegating its responsibilities on Stores.
+As so, it must ensure that the dependencies of each store are fulfilled.
+
+**Noteworthy, that others dependencies might be found out further.**
+end note
+
+deactivate COMP
+deactivate APP
+@enduml
+
+@startuml
+title Creating Client Store
+participant ":\nApp" as APP
+participant ":\nCompany" as COMP
+participant "auth:\nAuthFacade" as AUTH
+participant ":\nClientStore" as STORE
+
+activate APP
+APP- -> COMP**: create(**designation**)
+
+activate COMP
+
+COMP - ->AUTH**: create()
+
+COMP - ->STORE**: create(**auth**)
+
+note right COMP
+The object Company is delegating its responsibilities on Stores.
+As so, it must ensure that the dependencies of each store are fulfilled.
+
+**Noteworthy, that others dependencies might be found out further.**
+end note
+
+deactivate COMP
+deactivate APP
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

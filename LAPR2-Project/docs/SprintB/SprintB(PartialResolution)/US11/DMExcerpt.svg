@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="300px" preserveAspectRatio="none" style="width:278px;height:300px;" version="1.1" viewBox="0 0 278 300" width="278px" zoomAndPan="magnify"><defs><filter height="300%" id="foh1x4hrbhn3y" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="269" x="2" y="17.4023">US 11 - Domain Model Excerpt</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="9" fill="#FEFECE" filter="url(#foh1x4hrbhn3y)" height="52.9551" id="Company" style="stroke: #A80036; stroke-width: 1.5;" width="86" x="96.5" y="28.1992"/><ellipse cx="111.5" cy="44.1992" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M113.9731,50.3423 Q113.3921,50.6411 112.7529,50.7905 Q112.1138,50.9399 111.4082,50.9399 Q108.9014,50.9399 107.5815,49.2881 Q106.2617,47.6362 106.2617,44.5151 Q106.2617,41.3857 107.5815,39.7339 Q108.9014,38.082 111.4082,38.082 Q112.1138,38.082 112.7612,38.2314 Q113.4087,38.3809 113.9731,38.6797 L113.9731,41.4023 Q113.3423,40.8213 112.7488,40.5515 Q112.1553,40.2817 111.5244,40.2817 Q110.1797,40.2817 109.4949,41.3484 Q108.8101,42.415 108.8101,44.5151 Q108.8101,46.6069 109.4949,47.6736 Q110.1797,48.7402 111.5244,48.7402 Q112.1553,48.7402 112.7488,48.4705 Q113.3423,48.2007 113.9731,47.6196 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="125.5" y="48.7344">Company</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="97.5" x2="181.5" y1="60.1992" y2="60.1992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="102.5" y="74.834">-designation</text><!--MD5=[36afb6bbd95a8ac778c4537c55a683d5]
+class ParameterCategory--><rect codeLine="13" fill="#FEFECE" filter="url(#foh1x4hrbhn3y)" height="65.9102" id="ParameterCategory" style="stroke: #A80036; stroke-width: 1.5;" width="143" x="68" y="220.1992"/><ellipse cx="83" cy="236.1992" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M85.4731,242.3423 Q84.8921,242.6411 84.2529,242.7905 Q83.6138,242.9399 82.9082,242.9399 Q80.4014,242.9399 79.0815,241.2881 Q77.7617,239.6362 77.7617,236.5151 Q77.7617,233.3857 79.0815,231.7339 Q80.4014,230.082 82.9082,230.082 Q83.6138,230.082 84.2612,230.2314 Q84.9087,230.3809 85.4731,230.6797 L85.4731,233.4023 Q84.8423,232.8213 84.2488,232.5515 Q83.6553,232.2817 83.0244,232.2817 Q81.6797,232.2817 80.9949,233.3484 Q80.3101,234.415 80.3101,236.5151 Q80.3101,238.6069 80.9949,239.6736 Q81.6797,240.7402 83.0244,240.7402 Q83.6553,240.7402 84.2488,240.4705 Q84.8423,240.2007 85.4731,239.6196 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="111" x="97" y="240.7344">ParameterCategory</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="69" x2="210" y1="252.1992" y2="252.1992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="32" x="74" y="266.834">-code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="35" x="74" y="279.7891">-name</text><!--MD5=[93b4f25fb503a8e0e9a46b1d30ff3f44]
+link Company to ParameterCategory--><path codeLine="18" d="M139.5,81.3892 C139.5,116.9692 139.5,181.2292 139.5,219.9792 " fill="none" id="Company-ParameterCategory" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#000000" points="144.5,155.8545,147.4389,146.8094,141.5611,146.8094,144.5,155.8545" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="153.5" y="155.7676">adopts</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="130.575" y="101.9051">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="6" x="132.9094" y="209.5702">*</text><!--MD5=[582347d502b24425912764c0420bcbb3]
+@startuml
+
+skinparam classAttributeIconSize 0
+hide methods
+
+title
+US 11 - Domain Model Excerpt
+end title
+
+class Company {
+-designation
+}
+
+class ParameterCategory {
+-code
+-name
+}
+
+Company "1" - - - "*" ParameterCategory : adopts >
+
+@enduml
+
+PlantUML version 1.2020.20(Sat Nov 21 10:02:45 WET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: PT
+--></g></svg>

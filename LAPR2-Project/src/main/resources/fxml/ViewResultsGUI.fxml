@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="587.0" prefWidth="817.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.ViewResultsGUI">
+   <children>
+      <Button fx:id="btnViewResults" layoutX="14.0" layoutY="115.0" mnemonicParsing="false" text="View Results" />
+      <Label fx:id="lblTestIndex" layoutX="160.0" layoutY="46.0" />
+      <TextField fx:id="txtIndexTest" layoutX="76.0" layoutY="40.0" prefHeight="39.0" prefWidth="67.0" />
+      <Label fx:id="lblTestResults" layoutX="396.0" layoutY="33.0" />
+   </children>
+</AnchorPane>

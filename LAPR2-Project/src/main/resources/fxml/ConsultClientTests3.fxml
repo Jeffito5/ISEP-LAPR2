@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="paneParent" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.ConsultClientTestsGUIScene3">
+   <children>
+      <MenuBar fx:id="menuBar" layoutX="10.0" layoutY="10.0" prefHeight="0.0" prefWidth="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <BorderPane layoutX="10.0" layoutY="30.0" prefHeight="342.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+         <bottom>
+            <HBox fillHeight="false" prefHeight="20.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="goBack" layoutX="482.0" layoutY="10.0" mnemonicParsing="false" onAction="#getBack" prefHeight="27.0" prefWidth="128.0" text="BACK" />
+                  <Region prefWidth="200.0" HBox.hgrow="ALWAYS" />
+                  <Button fx:id="showTest" mnemonicParsing="false" onAction="#showTest" prefHeight="27.0" prefWidth="128.0" text="NEXT" />
+               </children>
+            </HBox>
+         </bottom>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <top>
+                  <ListView fx:id="testList" onMouseClicked="#activateNextBtn" prefHeight="345.0" prefWidth="157.0" BorderPane.alignment="CENTER">
+                     <contextMenu>
+                        <ContextMenu>
+                           <items>
+                              <MenuItem mnemonicParsing="false" text="Show Info" />
+                              <MenuItem mnemonicParsing="false" text="Show Tests" />
+                           </items>
+                        </ContextMenu>
+                     </contextMenu>
+                  </ListView>
+               </top>
+            </BorderPane>
+         </center>
+         <top>
+            <HBox prefHeight="27.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="menuLabel" contentDisplay="TOP" prefHeight="33.0" prefWidth="158.0" text="SELECT TEST" textAlignment="RIGHT">
+                     <padding>
+                        <Insets left="20.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

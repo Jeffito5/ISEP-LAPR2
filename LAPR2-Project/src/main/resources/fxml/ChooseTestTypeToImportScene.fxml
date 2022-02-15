@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.ImportClinicalTestsGUI">
+   <children>
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="#e1e1e1" height="401.0" stroke="WHITE" strokeType="INSIDE" width="117.0" />
+      <ImageView fitHeight="70.0" fitWidth="90.0" layoutX="20.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../JavaFX-Images/Logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnImport" layoutX="241.0" layoutY="138.0" mnemonicParsing="false" onAction="#importFile" text="Import File for Tests" />
+      <Label layoutX="13.0" layoutY="55.0" prefHeight="29.0" prefWidth="84.0" text="Laboratory's" />
+      <Label layoutX="13.0" layoutY="73.0" prefHeight="25.0" prefWidth="99.0" text="Coordinator" />
+      <Label layoutX="32.0" layoutY="87.0" prefHeight="27.0" prefWidth="46.0" text="Menu" />
+      <Button fx:id="btnBack" layoutX="479.0" layoutY="356.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="238.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../JavaFX-Images/ManyLabs.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblInfo" layoutX="197.0" layoutY="230.0" prefHeight="100.0" prefWidth="292.0" />
+   </children>
+</AnchorPane>

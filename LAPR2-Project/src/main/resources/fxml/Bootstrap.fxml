@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="paneParent" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.BootstrapGUI">
+   <children>
+      <Button fx:id="consultTestsBtn" layoutX="218.0" layoutY="80.0" mnemonicParsing="false" onAction="#consultClientTestsBtn" text="Consult Client Tests (CCT)" />
+      <Button fx:id="goBack" layoutX="31.0" layoutY="346.0" mnemonicParsing="false" onAction="#goBackBtn" text="BACK" />
+      <Button fx:id="btnViewResults" layoutX="218.0" layoutY="165.0" mnemonicParsing="false" onAction="#viewResultsClient" text="View Results (Client)" />
+   </children>
+</AnchorPane>

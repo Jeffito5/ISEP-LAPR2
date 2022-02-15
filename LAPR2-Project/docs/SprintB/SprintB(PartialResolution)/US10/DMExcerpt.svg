@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="409px" preserveAspectRatio="none" style="width:278px;height:409px;" version="1.1" viewBox="0 0 278 409" width="278px" zoomAndPan="magnify"><defs><filter height="300%" id="fu2csqibtgk9j" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="269" x="2" y="17.4023">US 10 - Domain Model Excerpt</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="9" fill="#FEFECE" filter="url(#fu2csqibtgk9j)" height="52.9551" id="Company" style="stroke: #A80036; stroke-width: 1.5;" width="86" x="98.5" y="28.1992"/><ellipse cx="113.5" cy="44.1992" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M115.9731,50.3423 Q115.3921,50.6411 114.7529,50.7905 Q114.1138,50.9399 113.4082,50.9399 Q110.9014,50.9399 109.5815,49.2881 Q108.2617,47.6362 108.2617,44.5151 Q108.2617,41.3857 109.5815,39.7339 Q110.9014,38.082 113.4082,38.082 Q114.1138,38.082 114.7612,38.2314 Q115.4087,38.3809 115.9731,38.6797 L115.9731,41.4023 Q115.3423,40.8213 114.7488,40.5515 Q114.1553,40.2817 113.5244,40.2817 Q112.1797,40.2817 111.4949,41.3484 Q110.8101,42.415 110.8101,44.5151 Q110.8101,46.6069 111.4949,47.6736 Q112.1797,48.7402 113.5244,48.7402 Q114.1553,48.7402 114.7488,48.4705 Q115.3423,48.2007 115.9731,47.6196 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="54" x="127.5" y="48.7344">Company</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="99.5" x2="183.5" y1="60.1992" y2="60.1992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="69" x="104.5" y="74.834">-designation</text><!--MD5=[1f6362a5c8f21d8d6a0fce68f3a92a4e]
+class Parameter--><rect codeLine="14" fill="#FEFECE" filter="url(#fu2csqibtgk9j)" height="78.8652" id="Parameter" style="stroke: #A80036; stroke-width: 1.5;" width="92" x="28.5" y="173.1992"/><ellipse cx="43.5" cy="189.1992" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M45.9731,195.3423 Q45.3921,195.6411 44.7529,195.7905 Q44.1138,195.9399 43.4082,195.9399 Q40.9014,195.9399 39.5815,194.2881 Q38.2617,192.6362 38.2617,189.5151 Q38.2617,186.3857 39.5815,184.7339 Q40.9014,183.082 43.4082,183.082 Q44.1138,183.082 44.7612,183.2314 Q45.4087,183.3809 45.9731,183.6797 L45.9731,186.4023 Q45.3423,185.8213 44.7488,185.5515 Q44.1553,185.2817 43.5244,185.2817 Q42.1797,185.2817 41.4949,186.3484 Q40.8101,187.415 40.8101,189.5151 Q40.8101,191.6069 41.4949,192.6736 Q42.1797,193.7402 43.5244,193.7402 Q44.1553,193.7402 44.7488,193.4705 Q45.3423,193.2007 45.9731,192.6196 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="60" x="57.5" y="193.7344">Parameter</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="29.5" x2="119.5" y1="205.1992" y2="205.1992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="32" x="34.5" y="219.834">-code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="61" x="34.5" y="232.7891">-shorName</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="67" x="34.5" y="245.7441">-description</text><!--MD5=[36afb6bbd95a8ac778c4537c55a683d5]
+class ParameterCategory--><rect codeLine="20" fill="#FEFECE" filter="url(#fu2csqibtgk9j)" height="65.9102" id="ParameterCategory" style="stroke: #A80036; stroke-width: 1.5;" width="143" x="61" y="329.1992"/><ellipse cx="76" cy="345.1992" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M78.4731,351.3423 Q77.8921,351.6411 77.2529,351.7905 Q76.6138,351.9399 75.9082,351.9399 Q73.4014,351.9399 72.0815,350.2881 Q70.7617,348.6362 70.7617,345.5151 Q70.7617,342.3857 72.0815,340.7339 Q73.4014,339.082 75.9082,339.082 Q76.6138,339.082 77.2612,339.2314 Q77.9087,339.3809 78.4731,339.6797 L78.4731,342.4023 Q77.8423,341.8213 77.2488,341.5515 Q76.6553,341.2817 76.0244,341.2817 Q74.6797,341.2817 73.9949,342.3484 Q73.3101,343.415 73.3101,345.5151 Q73.3101,347.6069 73.9949,348.6736 Q74.6797,349.7402 76.0244,349.7402 Q76.6553,349.7402 77.2488,349.4705 Q77.8423,349.2007 78.4731,348.6196 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="111" x="90" y="349.7344">ParameterCategory</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="62" x2="203" y1="361.1992" y2="361.1992"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="32" x="67" y="375.834">-code</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="35" x="67" y="388.7891">-name</text><!--MD5=[93b4f25fb503a8e0e9a46b1d30ff3f44]
+link Company to ParameterCategory--><path codeLine="26" d="M164.37,81.2892 C170.89,90.1392 177.13,100.5292 180.5,111.1992 C205.69,190.8692 207.53,220.1392 180.5,299.1992 C176.85,309.8892 170.51,320.1692 163.63,329.1692 " fill="none" id="Company-ParameterCategory" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#000000" points="204.4851,217.8545,207.451,208.8182,201.5732,208.8007,204.4851,217.8545" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="43" x="213.5" y="217.7676">adopts</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="160.7337" y="101.782">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="6" x="163.4318" y="318.4196">*</text><!--MD5=[12d76240d3c3c66074d4ec2ea8bf469c]
+link Company to Parameter--><path codeLine="27" d="M120.1,81.2892 C113.38,90.3092 106.44,100.7892 101.5,111.1992 C92.28,130.6192 85.79,153.6992 81.5,172.8392 " fill="none" id="Company-Parameter" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="65" x="106.5" y="124.7676">capable of</text><polygon fill="#000000" points="105.5575,139.7723,111.7796,132.5795,106.3635,130.2959,105.5575,139.7723" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="60" x="115.5" y="140.0781">analysing</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="106.2263" y="101.782">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="6" x="76.1625" y="162.6005">*</text><!--MD5=[6df8849671cb880f6936e94aa30db6f9]
+link Parameter to ParameterCategory--><path codeLine="28" d="M58.18,252.4292 C54.21,267.5492 52.79,284.6992 59.5,299.1992 C64.74,310.5192 73.17,320.5292 82.48,329.0192 " fill="none" id="Parameter-ParameterCategory" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#000000" points="66.0121,295.6204,66.078,286.11,60.4754,287.8876,66.0121,295.6204" style="stroke: #000000; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="102" x="73.5" y="295.7676">presented under</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="6" x="49.1009" y="272.5603">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="8" x="63.3384" y="318.2386">1</text><!--MD5=[dd499212fc07aee3ff5004df1d151479]
+@startuml
+
+skinparam classAttributeIconSize 0
+hide methods
+
+title
+US 10 - Domain Model Excerpt
+end title
+
+class Company {
+-designation
+}
+
+
+class Parameter {
+-code
+-shorName
+-description
+}
+
+class ParameterCategory {
+-code
+-name
+}
+
+
+Company "1" - - - "*" ParameterCategory : adopts >
+Company "1" - - "*" Parameter : capable of\nanalysing >
+Parameter "*" - - "1" ParameterCategory : presented under >
+
+
+@enduml
+
+PlantUML version 1.2020.20(Sat Nov 21 10:02:45 WET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: PT
+--></g></svg>

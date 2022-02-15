@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="186px" preserveAspectRatio="none" style="width:259px;height:186px;background:#FFFFFF;" version="1.1" viewBox="0 0 259 186" width="259px" zoomAndPan="magnify"><defs><filter height="300%" id="f1cts61xqaqw5" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[2c2e2644034c00788261e03c85b06837]
+cluster Core--><polygon fill="#FFFFFF" filter="url(#f1cts61xqaqw5)" points="16,6,60,6,67,28.2969,242,28.2969,242,179,16,179,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="67" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="38" x="20" y="20.9951">Core</text><!--MD5=[2fb3fc8e03cad589fa238654c03a9f58]
+entity Domain--><polygon fill="#FEFECE" filter="url(#f1cts61xqaqw5)" points="24,132,100,132,107,154.2969,124,154.2969,124,171.2969,24,171.2969,24,132" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="24" x2="107" y1="154.2969" y2="154.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="34" y="147.9951">Domain</text><!--MD5=[97de1061a0ab8445a0a4bfc3e13b8318]
+entity DTO--><polygon fill="#FEFECE" filter="url(#f1cts61xqaqw5)" points="159.5,132,210.5,132,217.5,154.2969,234.5,154.2969,234.5,171.2969,159.5,171.2969,159.5,132" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="159.5" x2="217.5" y1="154.2969" y2="154.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="33" x="169.5" y="147.9951">DTO</text><!--MD5=[08f7a00d71faf13c08629754422ad5e6]
+entity Tasks--><polygon fill="#FEFECE" filter="url(#f1cts61xqaqw5)" points="88,33,152,33,159,55.2969,176,55.2969,176,72.2969,88,72.2969,88,33" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="88" x2="159" y1="55.2969" y2="55.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="46" x="98" y="48.9951">Tasks</text><!--MD5=[f5c095b95fbad312130606375041029d]
+link Tasks to DTO--><path d="M144.8419,72.0592 C155.347,88.0593 170.2414,110.7447 181.4261,127.7797 " fill="none" id="Tasks-to-DTO" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="184.1848,131.9814,182.5889,122.2627,181.4406,127.8018,175.9015,126.6535,184.1848,131.9814" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[89e95e5681f0d803aae8753d22156207]
+link Tasks to Domain--><path d="M120.5411,72.0592 C111.2467,87.9237 98.1018,110.3606 88.1512,127.3454 " fill="none" id="Tasks-to-Domain" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="85.4351,131.9814,93.436,126.2381,87.9626,127.6673,86.5334,122.194,85.4351,131.9814" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[31c43cb0f2d92bdac63258e34e056862]
+@startuml
+skinparam classAttributeIconSize 0
+hide empty methods
+
+
+
+package Core {
+package Domain
+package DTO
+package Tasks
+
+  Tasks ..> DTO
+  Tasks ..> Domain
+
+  
+  
+  
+}
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 12:40:07 UTC 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

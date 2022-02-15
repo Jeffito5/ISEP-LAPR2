@@ -1,0 +1,44 @@
+COVID-19 REPORT [16-06-2021]
+
+
+#### REGRESSION MODEL STATS ####
+
+Y = -3,59 + 0,13X1 + -1,00X2
+R^2 = -0,959
+R2 Adjusted = -4,878
+R = NaN
+
+
+#### HYPOTHESIS TESTS ####
+
+H0: B0 = 0  |  H1: B0 != 0
+
+H0 not rejected. With an alpha of 0,05, there is enough statistical evidence to conclude that β0 = 0
+
+
+#### SIGNIFICANCE MODEL ####
+
+H0: B0 = 0  |  H1: B0 != 0
+
+Variation Source    SoS       DOF   Quad Mean   F0        
+-----------------------------------------------------
+Regression          -0,72     2     -0,36       -0,24     
+Error               1,47      1     1,47        
+Total               0,75      3     
+
+Fisher-Snedecor value (0,05 %): 199,5000
+
+H0 not rejected. With an alpha of 0,05%, there is enough statistical evidence to 
+conclude that the presented linear regression modelis not significant and should not be used.
+
+
+#### ESTIMATED VALUES ####
+
+Date                          Observed Positive Cases       Estimated Positive Cases      Interval                      
+09-06-2021                    0                             -3,59                         IC(0,95) = ]-21,3808; 14,1916[
+10-06-2021                    0                             -3,59                         IC(0,95) = ]-21,3808; 14,1916[
+11-06-2021                    1                             -44,34                        IC(0,95) = ]-15,8729; 14,9337[
+12-06-2021                    0                             -3,59                         IC(0,95) = ]-21,3808; 14,1916[
+14-06-2021                    0                             -3,59                         IC(0,95) = ]-21,3808; 14,1916[
+15-06-2021                    0                             -3,59                         IC(0,95) = ]-21,3808; 14,1916[
+16-06-2021                    2                             -44,22                        IC(0,95) = ]-924018322,5213; 924018319,5821[

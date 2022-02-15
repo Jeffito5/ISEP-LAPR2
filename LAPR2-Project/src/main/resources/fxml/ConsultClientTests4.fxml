@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane fx:id="paneParent" prefHeight="400.0" prefWidth="600.0" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.ConsultClientTestsGUIScene4">
+   <children>
+      <MenuBar fx:id="menuBar" layoutX="20.0" layoutY="20.0" prefHeight="0.0" prefWidth="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <BorderPane layoutX="10.0" layoutY="30.0" prefHeight="399.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="20.0">
+         <bottom>
+            <HBox fillHeight="false" prefHeight="20.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="goBack" layoutX="482.0" layoutY="10.0" mnemonicParsing="false" onAction="#getBack" prefHeight="27.0" prefWidth="128.0" text="BACK" />
+                  <Region prefWidth="200.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+         </bottom>
+         <center>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <center>
+                  <TextArea fx:id="testResultsArea" editable="false" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+         </center>
+         <top>
+            <HBox prefHeight="27.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="clientLabel" contentDisplay="TOP" prefHeight="33.0" prefWidth="158.0" text="TEST RESULTS" textAlignment="RIGHT">
+                     <padding>
+                        <Insets left="20.0" top="2.0" />
+                     </padding>
+                  </Label>
+                  <Region prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
